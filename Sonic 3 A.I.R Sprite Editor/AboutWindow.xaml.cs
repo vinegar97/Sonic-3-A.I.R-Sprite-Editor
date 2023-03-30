@@ -5,7 +5,7 @@ using System.IO;
 using System.Reflection;
 
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     /// <summary>
     /// Interaction logic for AboutWindow.xaml

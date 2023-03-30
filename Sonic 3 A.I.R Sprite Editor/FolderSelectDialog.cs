@@ -6,7 +6,7 @@ using System.Windows.Forms;
 // a vista-style dialog.
 // ------------------------------------------------------------------
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     /// <summary>
     /// Wraps System.Windows.Forms.OpenFileDialog to make it present

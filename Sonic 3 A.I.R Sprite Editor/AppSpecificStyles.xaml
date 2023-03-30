@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:gen="clr-namespace:GenerationsLib.WPF.Styles;assembly=GenerationsLib.WPF"
                     xmlns:ControlLib="clr-namespace:ControlLib;assembly=NumericUpDown" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" xmlns:Themes="clr-namespace:Xceed.Wpf.Toolkit.Themes;assembly=Xceed.Wpf.Toolkit"
-                    xmlns:local="clr-namespace:Sonic_3_AIR_Animation_Editor">
+                    xmlns:local="clr-namespace:Sonic_3_AIR_Sprite_Editor">
     <Style TargetType="{x:Type ControlLib:NumericUpDown}">
         <Setter Property="Template">
             <Setter.Value>

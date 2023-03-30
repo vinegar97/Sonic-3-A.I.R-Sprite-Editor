@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{41460D41-64A5-4A2D-832B-8130EB48AE0E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Sonic_3_AIR_Animation_Editor</RootNamespace>
-    <AssemblyName>Sonic 3 A.I.R Animation Editor</AssemblyName>
+    <RootNamespace>Sonic_3_AIR_Sprite_Editor</RootNamespace>
+    <AssemblyName>Sonic 3 A.I.R Sprite Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -38,10 +38,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>AIR_Animation_Editor_Icon.ico</ApplicationIcon>
+    <ApplicationIcon>AIR_Sprite_Editor_Icon.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Sonic_3_AIR_Animation_Editor.Program</StartupObject>
+    <StartupObject>Sonic_3_AIR_Sprite_Editor.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Publish|AnyCPU'">
     <OutputPath>bin\Release\</OutputPath>
@@ -181,7 +181,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="AIR_Animation_Editor_Icon.ico" />
+    <Resource Include="AIR_Sprite_Editor_Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\win.bmp" />
@@ -195,9 +195,9 @@
     <Error Condition="!Exists('..\packages\SkiaSharp.1.68.0\build\net45\SkiaSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.1.68.0\build\net45\SkiaSharp.targets'))" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>call "$(SolutionDir)\Sonic 3 A.I.R Animation Editor\Properties\PostBuild.bat" "$(ConfigurationName)" "$(SolutionDir)"</PostBuildEvent>
+    <PostBuildEvent>call "$(SolutionDir)\Sonic 3 A.I.R Sprite Editor\Properties\PostBuild.bat" "$(ConfigurationName)" "$(SolutionDir)"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PreBuildEvent>call "$(SolutionDir)Sonic 3 A.I.R Animation Editor\Properties\PreBuild.bat" "$(ConfigurationName)" "$(SolutionDir)Sonic 3 A.I.R Animation Editor\" "false" "true"</PreBuildEvent>
+    <PreBuildEvent>call "$(SolutionDir)Sonic 3 A.I.R Sprite Editor\Properties\PreBuild.bat" "$(ConfigurationName)" "$(SolutionDir)Sonic 3 A.I.R Sprite Editor\" "false" "true"</PreBuildEvent>
   </PropertyGroup>
 </Project>

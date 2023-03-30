@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     public class CustomUniformGrid : UniformGrid
     {

@@ -1,11 +1,11 @@
-﻿<Window x:Class="Sonic_3_AIR_Animation_Editor.AboutWindow"
+﻿<Window x:Class="Sonic_3_AIR_Sprite_Editor.AboutWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        xmlns:maniac="clr-namespace:Sonic_3_AIR_Animation_Editor"       
-        Title="About Sonic 3 A.I.R. Animation Editor" Height="404" Width="472.667" Background="{DynamicResource NormalBackground}" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+        xmlns:maniac="clr-namespace:Sonic_3_AIR_Sprite_Editor"       
+        Title="About Sonic 3 A.I.R. Sprite Editor" Height="404" Width="472.667" Background="{DynamicResource NormalBackground}" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"></ColumnDefinition>

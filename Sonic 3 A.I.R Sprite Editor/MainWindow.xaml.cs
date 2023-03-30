@@ -24,7 +24,7 @@ using Microsoft.Win32;
 using AIR_API;
 
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -1918,6 +1918,4 @@ namespace Sonic_3_AIR_Animation_Editor
 
         }
     }
-
-
 }

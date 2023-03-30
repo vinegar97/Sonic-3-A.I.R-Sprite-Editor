@@ -4,14 +4,14 @@
 #              by Vlasis K. Barkas aka Red Wine red_wine@freemail.gr Sep 2006               
 ############################################################################################
 
-!define APP_NAME "Sonic 3 A.I.R. Animation Editor"
+!define APP_NAME "Sonic 3 A.I.R. Sprite Editor"
 !define COMP_NAME "CarJem Generations"
 !define WEB_SITE "https://twitter.com/carter5467_99"
 !define VERSION "1.00.00.00"
 !define COPYRIGHT "Author  © 2019"
 !define DESCRIPTION "Application"
-!define INSTALLER_NAME "D:\Users\CarJem\source\sonic3air_repos\Sonic 3 A.I.R Animation Editor\Installer\Setup.exe"
-!define MAIN_APP_EXE "Sonic 3 A.I.R Animation Editor.exe"
+!define INSTALLER_NAME "D:\Users\CarJem\source\sonic3air_repos\Sonic 3 A.I.R Sprite Editor\Installer\Setup.exe"
+!define MAIN_APP_EXE "Sonic 3 A.I.R Sprite Editor.exe"
 !define INSTALL_TYPE "SetShellVarContext current"
 !define REG_ROOT "HKCU"
 !define REG_APP_PATH "Software\Microsoft\Windows\CurrentVersion\App Paths\${MAIN_APP_EXE}"
@@ -35,7 +35,7 @@ OutFile "${INSTALLER_NAME}"
 BrandingText "${APP_NAME}"
 XPStyle on
 InstallDirRegKey "${REG_ROOT}" "${REG_APP_PATH}" ""
-InstallDir "$PROGRAMFILES\Sonic 3 A.I.R. Animation Editor"
+InstallDir "$PROGRAMFILES\Sonic 3 A.I.R. Sprite Editor"
 
 ######################################################################
 
@@ -63,7 +63,7 @@ InstallDir "$PROGRAMFILES\Sonic 3 A.I.R. Animation Editor"
 
 !ifdef REG_START_MENU
 !define MUI_STARTMENUPAGE_NODISABLE
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Sonic 3 A.I.R. Animation Editor"
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Sonic 3 A.I.R. Sprite Editor"
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT "${REG_ROOT}"
 !define MUI_STARTMENUPAGE_REGISTRY_KEY "${UNINSTALL_PATH}"
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME "${REG_START_MENU}"
@@ -89,7 +89,7 @@ Section -MainProgram
 ${INSTALL_TYPE}
 SetOverwrite ifnewer
 SetOutPath "$INSTDIR"
-File /r "D:\Users\CarJem\source\sonic3air_repos\Sonic 3 A.I.R Animation Editor\Sonic 3 A.I.R Animation Editor\bin\Release\*.*"
+File /r "D:\Users\CarJem\source\sonic3air_repos\Sonic 3 A.I.R Sprite Editor\Sonic 3 A.I.R Sprite Editor\bin\Release\*.*"
 SectionEnd
 
 ######################################################################
@@ -113,14 +113,14 @@ CreateShortCut "$SMPROGRAMS\$SM_Folder\${APP_NAME} Website.lnk" "$INSTDIR\${APP_
 !endif
 
 !ifndef REG_START_MENU
-CreateDirectory "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor"
-CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
+CreateDirectory "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor"
+CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
 CreateShortCut "$DESKTOP\${APP_NAME}.lnk" "$INSTDIR\${MAIN_APP_EXE}"
-CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\Uninstall ${APP_NAME}.lnk" "$INSTDIR\uninstall.exe"
+CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\Uninstall ${APP_NAME}.lnk" "$INSTDIR\uninstall.exe"
 
 !ifdef WEB_SITE
 WriteIniStr "$INSTDIR\${APP_NAME} website.url" "InternetShortcut" "URL" "${WEB_SITE}"
-CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\${APP_NAME} Website.lnk" "$INSTDIR\${APP_NAME} website.url"
+CreateShortCut "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\${APP_NAME} Website.lnk" "$INSTDIR\${APP_NAME} website.url"
 !endif
 !endif
 
@@ -155,14 +155,14 @@ RmDir "$SMPROGRAMS\$SM_Folder"
 !endif
 
 !ifndef REG_START_MENU
-Delete "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\${APP_NAME}.lnk"
-Delete "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\Uninstall ${APP_NAME}.lnk"
+Delete "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\${APP_NAME}.lnk"
+Delete "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\Uninstall ${APP_NAME}.lnk"
 !ifdef WEB_SITE
-Delete "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor\${APP_NAME} Website.lnk"
+Delete "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor\${APP_NAME} Website.lnk"
 !endif
 Delete "$DESKTOP\${APP_NAME}.lnk"
 
-RmDir "$SMPROGRAMS\Sonic 3 A.I.R. Animation Editor"
+RmDir "$SMPROGRAMS\Sonic 3 A.I.R. Sprite Editor"
 !endif
 
 DeleteRegKey ${REG_ROOT} "${REG_APP_PATH}"

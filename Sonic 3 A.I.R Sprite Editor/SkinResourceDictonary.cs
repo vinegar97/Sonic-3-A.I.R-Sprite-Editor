@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows;
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     public class SkinResourceDictionary : ResourceDictionary
     {

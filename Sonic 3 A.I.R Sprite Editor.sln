@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28809.33
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonic 3 AIR Animation Editor", "Sonic 3 A.I.R Animation Editor\Sonic 3 AIR Animation Editor.csproj", "{41460D41-64A5-4A2D-832B-8130EB48AE0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonic 3 AIR Sprite Editor", "Sonic 3 A.I.R Sprite Editor\Sonic 3 AIR Sprite Editor.csproj", "{41460D41-64A5-4A2D-832B-8130EB48AE0E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIR-API", "AIR-API\AIR-API\AIR-API.csproj", "{4311F3B1-E4A1-401C-BC13-E5E80254242E}"
 EndProject
@@ -12,8 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Installer", "Installer", "{A5E8C17E-F122-4DFA-98EA-E359443099BC}"
 	ProjectSection(SolutionItems) = preProject
 		Installer\MakeInstaller.bat = Installer\MakeInstaller.bat
-		Installer\Sonic 3 A.I.R. Animation Editor.nsi = Installer\Sonic 3 A.I.R. Animation Editor.nsi
-		Installer\Sonic 3 A.I.R. Animation Editor.nsi.bak = Installer\Sonic 3 A.I.R. Animation Editor.nsi.bak
+		Installer\Sonic 3 A.I.R. Sprite Editor.nsi = Installer\Sonic 3 A.I.R. Sprite Editor.nsi
+		Installer\Sonic 3 A.I.R. Sprite Editor.nsi.bak = Installer\Sonic 3 A.I.R. Sprite Editor.nsi.bak
 		Installer\win.bmp = Installer\win.bmp
 	EndProjectSection
 EndProject

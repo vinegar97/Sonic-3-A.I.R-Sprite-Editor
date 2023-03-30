@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -23,7 +23,7 @@ namespace Sonic_3_AIR_Animation_Editor
 
         public App()
         {
-            if (Sonic_3_AIR_Animation_Editor.Properties.Settings.Default.UseDarkMode) ChangeSkin(Skin.Dark);
+            if (Sonic_3_AIR_Sprite_Editor.Properties.Settings.Default.UseDarkMode) ChangeSkin(Skin.Dark);
             else ChangeSkin(Skin.Light);
 
             #if DEBUG

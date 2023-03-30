@@ -1,11 +1,11 @@
 ﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Sonic_3_AIR_Animation_Editor"
+             xmlns:local="clr-namespace:Sonic_3_AIR_Sprite_Editor"
              xmlns:gen="clr-namespace:GenerationsLib.WPF.Styles;assembly=GenerationsLib.WPF"
              xmlns:ControlLib="clr-namespace:ControlLib;assembly=NumericUpDown" 
              xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" 
              xmlns:Themes="clr-namespace:Xceed.Wpf.Toolkit.Themes;assembly=Xceed.Wpf.Toolkit" 
-             x:Class="Sonic_3_AIR_Animation_Editor.App" ShutdownMode="OnLastWindowClose">
+             x:Class="Sonic_3_AIR_Sprite_Editor.App" ShutdownMode="OnLastWindowClose">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>

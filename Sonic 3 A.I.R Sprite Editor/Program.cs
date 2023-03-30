@@ -5,7 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Resources;
 
-namespace Sonic_3_AIR_Animation_Editor
+namespace Sonic_3_AIR_Sprite_Editor
 {
     static class Program
     {
@@ -62,7 +62,7 @@ namespace Sonic_3_AIR_Animation_Editor
 
         static void RealMain(string[] args)
         {
-            Log.InfoFormat("Starting Sonic 3 A.I.R. Animation Editor...");
+            Log.InfoFormat("Starting Sonic 3 A.I.R. Sprite Editor...");
             try
             {
                 StartApplication(args);
@@ -110,7 +110,7 @@ namespace Sonic_3_AIR_Animation_Editor
 
         static void CleanUpLogsFolder()
         {
-            string appdatafolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "//Sonic 3 A.I.R. Animation Editor";
+            string appdatafolder = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "//Sonic 3 A.I.R. Sprite Editor";
             string app_log_filepath = Path.Combine(appdatafolder, "app.log");
             string log_folder_location = Path.Combine(appdatafolder, "Logs");
 
@@ -137,9 +137,5 @@ namespace Sonic_3_AIR_Animation_Editor
         }
 
         #endregion
-
-
-
-
     }
 }
