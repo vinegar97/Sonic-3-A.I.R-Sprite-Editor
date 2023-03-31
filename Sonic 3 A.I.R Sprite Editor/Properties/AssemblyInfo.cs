@@ -8,11 +8,11 @@ using System.Windows;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config")]
-[assembly: AssemblyTitle("Sonic 3 A.I.R Sprite Editor")]
+[assembly: AssemblyTitle("Sonic 3 A.I.R. Sprite Editor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Sonic 3 A.I.R Sprite Editor")]
+[assembly: AssemblyProduct("Sonic 3 A.I.R. Sprite Editor")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
