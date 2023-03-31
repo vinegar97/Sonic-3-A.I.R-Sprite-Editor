@@ -435,7 +435,7 @@ namespace Sonic_3_AIR_Sprite_Editor
 
         public void UpdateValues()
         {
-            Program.Log.InfoFormat("Setting Editor Control Values from Animation Entry...");
+            Program.Log.InfoFormat("Setting Editor Control Values from Sprite Entry...");
             AllowUpdate = false;
             NameTextBox.Text = CurrentFrame.Name;
             FileTextBox.Text = CurrentFrame.File;
@@ -464,7 +464,7 @@ namespace Sonic_3_AIR_Sprite_Editor
 
         public void UpdateRefrenceValues()
         {
-            Program.Log.InfoFormat("Setting Editor Control Values from Refrence Animation Entry...");
+            Program.Log.InfoFormat("Setting Editor Control Values from Reference Sprite Entry...");
             RefrenceNameTextBox.Text = CurrentRefrenceFrame.Name;
             RefrenceFileTextBox.Text = CurrentRefrenceFrame.File;
 
