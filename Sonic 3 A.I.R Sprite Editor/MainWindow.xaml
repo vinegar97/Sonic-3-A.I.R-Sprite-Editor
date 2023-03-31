@@ -25,7 +25,7 @@
                 </MenuItem>
                 <Separator></Separator>
                 <MenuItem Name="SaveMenuItem" Header="Save" InputGestureText="Ctrl + S" Click="SaveFileEvent"></MenuItem>
-                <MenuItem Name="SaveAsMenuItem" Header="Save As..." InputGestureText="Ctrl + Alt + S" Click="SaveFileAsEvent"></MenuItem>
+                <MenuItem Name="SaveAsMenuItem" Header="Save As..." InputGestureText="Ctrl + Shift + S" Click="SaveFileAsEvent"></MenuItem>
                 <Separator></Separator>
                 <MenuItem Name="UnloadMenuItem" Header="Unload" Click="UnloadEvent" InputGestureText="Ctrl + U"></MenuItem>
                 <Separator></Separator>

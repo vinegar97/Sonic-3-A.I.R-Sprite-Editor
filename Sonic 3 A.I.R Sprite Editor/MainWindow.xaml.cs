@@ -1877,7 +1877,7 @@ namespace Sonic_3_AIR_Sprite_Editor
                 //SaveFile
                 if (SaveMenuItem.IsEnabled) SaveFileEvent(null, null);
             }
-            else if(e.Key == Key.S && Keyboard.Modifiers == ModifierKeys.Control)
+            else if(e.Key == Key.S && Keyboard.Modifiers == (ModifierKeys.Control | ModifierKeys.Shift))
             {
                 //SaveFileAs
                 if (SaveAsMenuItem.IsEnabled) SaveFileAsEvent(null, null);
