@@ -71,7 +71,7 @@ namespace Sonic_3_AIR_Sprite_Editor
             {
 
             }
-            Log.InfoFormat("Shuting Down!");
+            Log.InfoFormat("Shutting Down!");
         }
         #endregion
 
@@ -116,7 +116,7 @@ namespace Sonic_3_AIR_Sprite_Editor
 
             if (!Directory.Exists(log_folder_location)) Directory.CreateDirectory(log_folder_location);
 
-            string log_filename = string.Format("S3AIR_AE_{0}_{1}.log", string.Format("[{0}]", GetVersionString()), DateTime.Now.ToString("[M-dd-yyyy]_[hh-mm-ss]"));
+            string log_filename = string.Format("S3AIR_SE_{0}_{1}.log", string.Format("[{0}]", GetVersionString()), DateTime.Now.ToString("[M-dd-yyyy]_[hh-mm-ss]"));
             string log_filepath = Path.Combine(log_folder_location, log_filename);
 
             if (File.Exists(app_log_filepath)) File.Copy(app_log_filepath, log_filepath);
