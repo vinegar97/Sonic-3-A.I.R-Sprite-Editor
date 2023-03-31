@@ -327,8 +327,9 @@ namespace Sonic_3_AIR_Sprite_Editor
             {
                 if (CurrentFrame != null && EntriesList.SelectedItem != null)
                 {
-                    int index = EntriesList.SelectedIndex;
+                    int index = EntriesList.SelectedIndex+1;
                     CurrentAnimation.FrameList.Insert(index, new Animation.Anim.Frame(CurrentAnimation.Directory));
+                    EntriesList.SelectedIndex = index;
                     UpdateUI();
                 }
             }
