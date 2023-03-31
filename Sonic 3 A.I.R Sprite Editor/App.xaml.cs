@@ -36,7 +36,7 @@ namespace Sonic_3_AIR_Sprite_Editor
 
         public void DefaultStart()
         {
-            Program.Log.InfoFormat("Starting Animation Editor...");
+            Program.Log.InfoFormat("Starting Sprite Editor...");
             this.Run(new MainWindow());
         }
 
