@@ -430,6 +430,12 @@ namespace Sonic_3_AIR_Sprite_Editor
             WidthNUD.Maximum = (int)(img_width - area.X);
             HeightNUD.Maximum = (int)(img_height - area.Y);
 
+            //Min Values
+            YNUD.Minimum = (int)0;
+            XNUD.Minimum = (int)0;
+            WidthNUD.Minimum = (int)0;
+            HeightNUD.Minimum = (int)0;
+
             return new FrameValues(x, y, width, height, centerX, centerY, area);
         }
 
