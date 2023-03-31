@@ -27,7 +27,7 @@
 
         <Button Click="Button_Click" Content="OK" Grid.Row="4" Margin="10,20,10,10" VerticalAlignment="Center"></Button>
         <StackPanel Grid.Column="1" Grid.Row="2" Grid.RowSpan="2">
-            <TextBlock TextWrapping="Wrap" x:Name="llAbout" Text="An Editor for Editing the Sprites and Animations of the Fan Game Sonic 3 A.I.R. - Angel Island Revisted"></TextBlock>
+            <TextBlock TextWrapping="Wrap" x:Name="llAbout" Text="An Editor for the Sprites of the Fan Game Sonic 3 A.I.R. - Angel Island Revisited"></TextBlock>
             <TextBlock></TextBlock>
             <TextBlock TextWrapping="Wrap" Text="Developed by:"></TextBlock>
             <TextBlock><TextBlock Text="● "/><Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://twitter.com/carter5467_99"><Run Text="CarJem Generations"/></Hyperlink></TextBlock>
