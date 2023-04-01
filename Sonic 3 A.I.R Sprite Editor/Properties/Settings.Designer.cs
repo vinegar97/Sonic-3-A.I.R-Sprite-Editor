@@ -37,12 +37,12 @@ namespace Sonic_3_AIR_Sprite_Editor.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#00000000")]
-        public global::System.Windows.Media.Color DefaultImageBGRefrence {
+        public global::System.Windows.Media.Color DefaultImageBGReference {
             get {
-                return ((global::System.Windows.Media.Color)(this["DefaultImageBGRefrence"]));
+                return ((global::System.Windows.Media.Color)(this["DefaultImageBGReference"]));
             }
             set {
-                this["DefaultImageBGRefrence"] = value;
+                this["DefaultImageBGReference"] = value;
             }
         }
         
@@ -73,12 +73,12 @@ namespace Sonic_3_AIR_Sprite_Editor.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#FF000000")]
-        public global::System.Windows.Media.Color DefaultFrameBorderRefrence {
+        public global::System.Windows.Media.Color DefaultFrameBorderReference {
             get {
-                return ((global::System.Windows.Media.Color)(this["DefaultFrameBorderRefrence"]));
+                return ((global::System.Windows.Media.Color)(this["DefaultFrameBorderReference"]));
             }
             set {
-                this["DefaultFrameBorderRefrence"] = value;
+                this["DefaultFrameBorderReference"] = value;
             }
         }
         
@@ -97,12 +97,12 @@ namespace Sonic_3_AIR_Sprite_Editor.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("#00FFFFFF")]
-        public global::System.Windows.Media.Color DefaultFrameBackgroundRefrence {
+        public global::System.Windows.Media.Color DefaultFrameBackgroundReference {
             get {
-                return ((global::System.Windows.Media.Color)(this["DefaultFrameBackgroundRefrence"]));
+                return ((global::System.Windows.Media.Color)(this["DefaultFrameBackgroundReference"]));
             }
             set {
-                this["DefaultFrameBackgroundRefrence"] = value;
+                this["DefaultFrameBackgroundReference"] = value;
             }
         }
         
@@ -133,12 +133,12 @@ namespace Sonic_3_AIR_Sprite_Editor.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string LastRefrenceFolder {
+        public string LastReferenceFolder {
             get {
-                return ((string)(this["LastRefrenceFolder"]));
+                return ((string)(this["LastReferenceFolder"]));
             }
             set {
-                this["LastRefrenceFolder"] = value;
+                this["LastReferenceFolder"] = value;
             }
         }
     }

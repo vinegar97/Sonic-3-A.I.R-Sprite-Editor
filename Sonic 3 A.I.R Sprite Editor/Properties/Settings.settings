@@ -5,7 +5,7 @@
     <Setting Name="RecentItems" Type="System.Collections.Specialized.StringCollection" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
-    <Setting Name="DefaultImageBGRefrence" Type="System.Windows.Media.Color" Scope="User">
+    <Setting Name="DefaultImageBGReference" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#00000000</Value>
     </Setting>
     <Setting Name="DefaultImageBG" Type="System.Windows.Media.Color" Scope="User">
@@ -14,13 +14,13 @@
     <Setting Name="DefaultFrameBorder" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#FF000000</Value>
     </Setting>
-    <Setting Name="DefaultFrameBorderRefrence" Type="System.Windows.Media.Color" Scope="User">
+    <Setting Name="DefaultFrameBorderReference" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#FF000000</Value>
     </Setting>
     <Setting Name="DefaultFrameBackground" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#00FFFFFF</Value>
     </Setting>
-    <Setting Name="DefaultFrameBackgroundRefrence" Type="System.Windows.Media.Color" Scope="User">
+    <Setting Name="DefaultFrameBackgroundReference" Type="System.Windows.Media.Color" Scope="User">
       <Value Profile="(Default)">#00FFFFFF</Value>
     </Setting>
     <Setting Name="DefaultAlignmentLinesColor" Type="System.Windows.Media.Color" Scope="User">
@@ -29,7 +29,7 @@
     <Setting Name="UseDarkMode" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="LastRefrenceFolder" Type="System.String" Scope="User">
+    <Setting Name="LastReferenceFolder" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

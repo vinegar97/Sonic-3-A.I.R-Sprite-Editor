@@ -38,53 +38,53 @@
 
                 <MenuItem IsCheckable="True" Header="Show Frame Border" Name="ShowFrameBorderItem" Checked="ShowFrameBorderItem_Checked" Unchecked="ShowFrameBorderItem_Checked"/>
                 <MenuItem IsEnabled="True" IsCheckable="True" Header="Show Full Image" Name="ShowFullImageItem" Checked="ShowFullImageItem_Checked" Unchecked="ShowFullImageItem_Checked"/>
-                <MenuItem IsCheckable="True" IsEnabled="False" Header="   Only Show Section of Refrence Frame" Name="ClipRefrenceFrameItem" Checked="ClipRefrenceFrameItem_Checked" Unchecked="ClipRefrenceFrameItem_Checked"/>
+                <MenuItem IsCheckable="True" IsEnabled="False" Header="   Only Show Section of Reference Frame" Name="ClipReferenceFrameItem" Checked="ClipReferenceFrameItem_Checked" Unchecked="ClipReferenceFrameItem_Checked"/>
                 <MenuItem IsCheckable="True" Header="Show Alignment Lines" Name="ShowCenterAlignmentLines" Checked="ShowCenterAlignmentLines_Checked" Unchecked="ShowCenterAlignmentLines_Checked"/>
                 <MenuItem IsCheckable="True" Header="Show Solid Image Background" Name="ShowSolidImageTransparencyBackground" Checked="ShowSolidImageTransparencyBackground_Checked" Unchecked="ShowSolidImageTransparencyBackground_Checked"/>
                 <MenuItem IsCheckable="True" Header="Force Viewer to Center Frame" Name="ForceCenterFrameItem" Checked="ForceCenterFrameItem_Checked" Unchecked="ForceCenterFrameItem_Checked"/>
-                <MenuItem IsCheckable="True" IsEnabled="False" IsChecked="True" Header="Auto Pick Refrence Frames" Name="AutoPickRefrenceFramesMenuItem" Checked="AutoPickRefrenceFramesMenuItem_Checked" Unchecked="AutoPickRefrenceFramesMenuItem_Checked"/>
-                <MenuItem IsCheckable="True" IsEnabled="False" IsChecked="False" Header="Draw Refrence Frames First" Name="RefrenceFrameBehindMenuItem" Checked="RefrenceFrameBehindMenuItem_Checked" Unchecked="RefrenceFrameBehindMenuItem_Checked"/>
+                <MenuItem IsCheckable="True" IsEnabled="False" IsChecked="True" Header="Auto Pick Reference Frames" Name="AutoPickReferenceFramesMenuItem" Checked="AutoPickReferenceFramesMenuItem_Checked" Unchecked="AutoPickReferenceFramesMenuItem_Checked"/>
+                <MenuItem IsCheckable="True" IsEnabled="False" IsChecked="False" Header="Draw Reference Frames First" Name="ReferenceFrameBehindMenuItem" Checked="ReferenceFrameBehindMenuItem_Checked" Unchecked="ReferenceFrameBehindMenuItem_Checked"/>
 
 
             </MenuItem>
             <MenuItem Header="Frames">
-                <MenuItem Name="StandardRefrence" Header="Standard..." IsEnabled="False">
+                <MenuItem Name="StandardReference" Header="Standard..." IsEnabled="False">
                     <MenuItem Header="Sonic...">
-                        <MenuItem Header="Sonic (Main)" Name="RefrenceSonicButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Sonic (Snowboard)" Name="RefrenceSonicSnowboardButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Sonic (Peel Out)"  Name="RefrenceSonicPeelOutButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Sonic (Drop Dash)"  Name="RefrenceSonicDropDashButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Blue Spheres" Name="RefrenceBSSonicButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Main)" Name="ReferenceSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Snowboard)" Name="ReferenceSonicSnowboardButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Peel Out)"  Name="ReferenceSonicPeelOutButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Drop Dash)"  Name="ReferenceSonicDropDashButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Blue Spheres)" Name="ReferenceBSSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     </MenuItem>
                     <MenuItem Header="Tails...">
-                        <MenuItem Header="Tails (Main)" Name="RefrenceTailsButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Tails (Blue Spheres)" Name="RefrenceBSTailsButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Twin Tails (Main)" Name="RefrenceTailsTailsButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Twin Tails (Blue Spheres)" Name="RefrenceBSTailsTailsButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Main)" Name="ReferenceTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Blue Spheres)" Name="ReferenceBSTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Twin Tails (Main)" Name="ReferenceTailsTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Twin Tails (Blue Spheres)" Name="ReferenceBSTailsTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     </MenuItem>
                     <MenuItem Header="Knuckles...">
-                        <MenuItem Header="Knuckles (Main)" Name="RefrenceKnucklesButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                        <MenuItem Header="Knuckles (Blue Spheres)" Name="RefrenceBSKnucklesButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Main)" Name="ReferenceKnucklesButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Blue Spheres)" Name="ReferenceBSKnucklesButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     </MenuItem>
-                    <MenuItem Header="Super Sonic" Name="RefrenceSuperSonicButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="Super Sonic" Name="ReferenceSuperSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                 </MenuItem>
-                <MenuItem Name="MiscRefrence" Header="Misc..." IsEnabled="False">
-                    <MenuItem Header="Monitors"  Name="RefrenceMonitorsButton" Click="RefrenceAnimationButton_Click"></MenuItem>
-                    <MenuItem Header="HUD" Name="RefrenceHUDButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                <MenuItem Name="MiscReference" Header="Misc..." IsEnabled="False">
+                    <MenuItem Header="Monitors"  Name="ReferenceMonitorsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="HUD" Name="ReferenceHUDButton" Click="RefrenceAnimationButton_Click"></MenuItem>
                 </MenuItem>
-                <MenuItem Visibility="Visible" Header="Custom..." Name="CustomRefrenceButton" Click="CustomRefrenceButton_Click"></MenuItem>
-                <MenuItem IsChecked="True" Header="None (Default)" Name="RefrenceNothingButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                <MenuItem Visibility="Visible" Header="Custom..." Name="CustomReferenceButton" Click="CustomReferenceButton_Click"></MenuItem>
+                <MenuItem IsChecked="True" Header="None (Default)" Name="ReferenceNothingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                 <Separator></Separator>
-                <MenuItem Header="Set Refrence Folder Path..." Name="SetRefrenecFolderPath" Click="SetRefreneceFolderPath_Click"></MenuItem>
+                <MenuItem Header="Set Reference Folder Path..." Name="SetRefrenecFolderPath" Click="SetRefreneceFolderPath_Click"></MenuItem>
                 <Separator></Separator>
-                <MenuItem IsEnabled="False" Header="Default Location in A.I.R. Install: &#10;(sonic3air__game\doc\modding\sprites)" Name="RefrenceNoteItem"/>
+                <MenuItem IsEnabled="False" Header="Default Location in A.I.R. Install: &#10;(sonic3air__game\doc\modding\sprites)" Name="ReferenceNoteItem"/>
                 <StackPanel Width="280" IsEnabled="True" Margin="0,5" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-                    <TextBlock Foreground="{DynamicResource DisabledText}" Text="Current Refrence Folder: " TextWrapping="Wrap" ></TextBlock>
-                    <TextBox Height="25" VerticalContentAlignment="Center" Foreground="{DynamicResource DisabledText}" IsReadOnly="True" Text="N/A" Name="RefrenceFolderPathLabel">
+                    <TextBlock Foreground="{DynamicResource DisabledText}" Text="Current Reference Folder: " TextWrapping="Wrap" ></TextBlock>
+                    <TextBox Height="25" VerticalContentAlignment="Center" Foreground="{DynamicResource DisabledText}" IsReadOnly="True" Text="N/A" Name="ReferenceFolderPathLabel">
                         <TextBox.ToolTip>
                             <ToolTip Background="{DynamicResource NormalBackground}">
                                 <StackPanel>
-                                    <TextBlock Foreground="{DynamicResource NormalText}" Text="N/A" Name="RefrenceFolderPathLabelTooltip"></TextBlock>
+                                    <TextBlock Foreground="{DynamicResource NormalText}" Text="N/A" Name="ReferenceFolderPathLabelTooltip"></TextBlock>
                                 </StackPanel>
                             </ToolTip>
                         </TextBox.ToolTip>
@@ -133,8 +133,8 @@
                             </ListBox.ItemTemplate>
                         </ListBox>
                     </TabItem>
-                    <TabItem Name="RefrenceFrameViewerTab">
-                        <ListBox  Margin="-2" Name="RefrenceFrameViewer" Visibility="Visible" Style="{DynamicResource BaseListBoxStyle}" ScrollViewer.VerticalScrollBarVisibility="Disabled" SelectionChanged="RefrenceFrameViewer_SelectionChanged">
+                    <TabItem Name="ReferenceFrameViewerTab">
+                        <ListBox  Margin="-2" Name="ReferenceFrameViewer" Visibility="Visible" Style="{DynamicResource BaseListBoxStyle}" ScrollViewer.VerticalScrollBarVisibility="Disabled" SelectionChanged="ReferenceFrameViewer_SelectionChanged">
                             <ListBox.ItemsPanel>
                                 <ItemsPanelTemplate>
                                     <VirtualizingStackPanel IsItemsHost="True" Orientation="Horizontal"></VirtualizingStackPanel>
@@ -189,8 +189,8 @@
                             </StackPanel>
                         </Grid>
                     </TabItem>
-                    <TabItem Header="Refrence Animation">
-                        <ListBox Name="RefrenceEntriesList" HorizontalContentAlignment="Left"  Style="{DynamicResource BaseListBoxStyle}" ItemContainerStyle="{DynamicResource BaseListBoxItemStyle}" SelectionChanged="RefrenceEntriesList_SelectionChanged" SelectionMode="Single" KeyboardNavigation.DirectionalNavigation="Contained"></ListBox>
+                    <TabItem Header="Reference Animation">
+                        <ListBox Name="ReferenceEntriesList" HorizontalContentAlignment="Left"  Style="{DynamicResource BaseListBoxStyle}" ItemContainerStyle="{DynamicResource BaseListBoxItemStyle}" SelectionChanged="ReferenceEntriesList_SelectionChanged" SelectionMode="Single" KeyboardNavigation.DirectionalNavigation="Contained"></ListBox>
                     </TabItem>
                 </TabControl>
             </Grid>
@@ -264,7 +264,7 @@
                             </Grid>
                         </StackPanel>
                     </Expander>
-                    <Expander Margin="5,0" Header="Refrence Frame Properties:" Foreground="{DynamicResource NormalText}">
+                    <Expander Margin="5,0" Header="Reference Frame Properties:" Foreground="{DynamicResource NormalText}">
                         <StackPanel>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -274,9 +274,9 @@
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
                                 <Label HorizontalAlignment="Right" Content="Width:"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" IsManipulationEnabled="True" HorizontalAlignment="Stretch" Width="Auto" Margin="5" Name="RefrenceWidthNUD"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" IsManipulationEnabled="True" HorizontalAlignment="Stretch" Width="Auto" Margin="5" Name="ReferenceWidthNUD"></wpfTool:IntegerUpDown>
                                 <Label HorizontalAlignment="Right" Content="Height:" Grid.Column="2"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Margin="5" Name="RefrenceHeightNUD" Grid.Row="1"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Margin="5" Name="ReferenceHeightNUD" Grid.Row="1"></wpfTool:IntegerUpDown>
                             </Grid>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -286,9 +286,9 @@
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
                                 <Label HorizontalAlignment="Right" Content="X:"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Stretch" Width="Auto" Name="RefrenceXNUD" Margin="5" Grid.Row="1"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Stretch" Width="Auto" Name="ReferenceXNUD" Margin="5" Grid.Row="1"></wpfTool:IntegerUpDown>
                                 <Label HorizontalAlignment="Right" Content="Y:" Grid.Column="2"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Name="RefrenceYNUD" Margin="5" Grid.Row="1"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Name="ReferenceYNUD" Margin="5" Grid.Row="1"></wpfTool:IntegerUpDown>
                             </Grid>
                             <Grid>
                                 <Grid.ColumnDefinitions>
@@ -305,14 +305,14 @@
                                     <RowDefinition></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Label HorizontalAlignment="Right" Content="Center X:"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Stretch" Width="Auto" Name="RefrenceCenterXNUD" Margin="5" Grid.Row="0"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="1" HorizontalAlignment="Stretch" Width="Auto" Name="ReferenceCenterXNUD" Margin="5" Grid.Row="0"></wpfTool:IntegerUpDown>
                                 <Label HorizontalAlignment="Right" Content="Center Y:" Grid.Column="2"></Label>
-                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Name="RefrenceCenterYNUD" Margin="5" Grid.Row="0"></wpfTool:IntegerUpDown>
+                                <wpfTool:IntegerUpDown IsReadOnly="True" Grid.Column="3" HorizontalAlignment="Stretch" Width="Auto" Name="ReferenceCenterYNUD" Margin="5" Grid.Row="0"></wpfTool:IntegerUpDown>
                                 <Label Margin="5,0" HorizontalAlignment="Right" Grid.Row="1" Content="Name:" Grid.Column="0"></Label>
                                 <Label Margin="5,0" HorizontalAlignment="Right" Content="File:" Grid.Row="2" Grid.Column="0"></Label>
 
                                 <Grid Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1">
-                                    <TextBox IsReadOnly="True" Margin="5,0" Name="RefrenceNameTextBox" Grid.Row="0" Height="20" Grid.Column="0"></TextBox>
+                                    <TextBox IsReadOnly="True" Margin="5,0" Name="ReferenceNameTextBox" Grid.Row="0" Height="20" Grid.Column="0"></TextBox>
                                 </Grid>
                                 <Grid Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="2">
                                     <Grid.RowDefinitions>
@@ -322,10 +322,10 @@
                                         <ColumnDefinition></ColumnDefinition>
                                         <ColumnDefinition Width="25"></ColumnDefinition>
                                     </Grid.ColumnDefinitions>
-                                    <TextBox IsReadOnly="True" Margin="5,0,0,0" Name="RefrenceFileTextBox" Grid.Row="1" Height="20" Grid.Column="0"></TextBox>
-                                    <Button IsEnabled="False" x:Name="RefrenceFileSpriteSelectButton" Margin="0,3,5,3" Content="..." Grid.Column="1">
+                                    <TextBox IsReadOnly="True" Margin="5,0,0,0" Name="ReferenceFileTextBox" Grid.Row="1" Height="20" Grid.Column="0"></TextBox>
+                                    <Button IsEnabled="False" x:Name="ReferenceFileSpriteSelectButton" Margin="0,3,5,3" Content="..." Grid.Column="1">
                                         <Button.ContextMenu>
-                                            <ContextMenu Style="{DynamicResource DefaultContextMenuStyle}" Name="RefrenceSpriteSheetFileList"></ContextMenu>
+                                            <ContextMenu Style="{DynamicResource DefaultContextMenuStyle}" Name="ReferenceSpriteSheetFileList"></ContextMenu>
                                         </Button.ContextMenu>
                                     </Button>
                                 </Grid>
@@ -336,7 +336,7 @@
 
                     <Expander Margin="5,0" Header="Viewer Options" Foreground="{DynamicResource NormalText}">
                         <StackPanel>
-                            <GroupBox x:Name="RefrenceOpacityLabel" Margin="5,0" Header="Refrence Image Opacity:" Foreground="{DynamicResource NormalText}">
+                            <GroupBox x:Name="ReferenceOpacityLabel" Margin="5,0" Header="Reference Image Opacity:" Foreground="{DynamicResource NormalText}">
                                 <Slider Margin="5,0" IsEnabled="False" Grid.Row="1" Maximum="99" Minimum="0" Value="100" Name="OpacitySlider" ValueChanged="OpacitySlider_ValueChanged"></Slider>
                             </GroupBox>
                             <Grid Margin="5,5,5,0">
@@ -462,11 +462,11 @@
                                     </ToggleButton.ToolTip>
                                     <Image Width="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,1,0,0" Source="{DynamicResource AppearanceTabSwatch_16x}"/>
                                 </ToggleButton>
-                                <ToggleButton IsEnabled="False" x:Name="ButtonShowOnlyRefrenceSection" Click="ButtonShowOnlyRefrenceSection_Click">
+                                <ToggleButton IsEnabled="False" x:Name="ButtonShowOnlyReferenceSection" Click="ButtonShowOnlyReferenceSection_Click">
                                     <ToggleButton.ToolTip>
                                         <ToolTip Background="{DynamicResource NormalBackground}">
                                             <StackPanel Background="{DynamicResource NormalBackground}">
-                                                <Label Content="Show only the refrence frame section when viewing the full image of a frame"/>
+                                                <Label Content="Show only the reference frame section when viewing the full image of a frame"/>
                                             </StackPanel>
                                         </ToolTip>
                                     </ToggleButton.ToolTip>
@@ -487,21 +487,21 @@
 
                                 <Separator  Margin="3 0 3 0" Style="{DynamicResource {x:Static ToolBar.SeparatorStyleKey}}" Visibility="Visible" />
 
-                                <ToggleButton IsEnabled="False" IsChecked="True" x:Name="ButtonAutoPickRefrenceFrame" Click="ButtonAutoPickRefrenceFrame_Click">
+                                <ToggleButton IsEnabled="False" IsChecked="True" x:Name="ButtonAutoPickReferenceFrame" Click="ButtonAutoPickReferenceFrame_Click">
                                     <ToggleButton.ToolTip>
                                         <ToolTip Background="{DynamicResource NormalBackground}">
                                             <StackPanel Background="{DynamicResource NormalBackground}">
-                                                <Label Content="Automatically pick a refrence frame that matches the main frame's key name"/>
+                                                <Label Content="Automatically pick a reference frame that matches the main frame's key name"/>
                                             </StackPanel>
                                         </ToolTip>
                                     </ToggleButton.ToolTip>
                                     <Image Width="16" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,1,0,0" Source="{DynamicResource NewFile_16x}"/>
                                 </ToggleButton>
-                                <ToggleButton IsEnabled="False" IsChecked="False" x:Name="ButtonRefrenceFrameBehind" Click="ButtonRefrenceFrameBehind_Click">
+                                <ToggleButton IsEnabled="False" IsChecked="False" x:Name="ButtonReferenceFrameBehind" Click="ButtonReferenceFrameBehind_Click">
                                     <ToggleButton.ToolTip>
                                         <ToolTip Background="{DynamicResource NormalBackground}">
                                             <StackPanel Background="{DynamicResource NormalBackground}">
-                                                <Label Content="Draw Refrence Frames First (Before the Main Animation's Frames)"/>
+                                                <Label Content="Draw Reference Frames First (Before the Main Animation's Frames)"/>
                                             </StackPanel>
                                         </ToolTip>
                                     </ToggleButton.ToolTip>
