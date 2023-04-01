@@ -55,22 +55,55 @@
                         <MenuItem Header="Sonic (Peel Out)"  Name="ReferenceSonicPeelOutButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Sonic (Drop Dash)"  Name="ReferenceSonicDropDashButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Sonic (Blue Spheres)" Name="ReferenceBSSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Continue)" Name="ReferenceSonicContinueButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Ending)" Name="ReferenceSonicEndingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Ending Pose)" Name="ReferenceSonicEndPoseButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Tornado Plane)" Name="ReferenceSonicPlaneButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Sonic (Continue Screen Icons)" Name="ReferenceSonicContinueScreenIconsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Super Sonic" Name="ReferenceSuperSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Super Sonic (Ending Pose)" Name="ReferenceSuperSonicEndPoseButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     </MenuItem>
                     <MenuItem Header="Tails...">
                         <MenuItem Header="Tails (Main)" Name="ReferenceTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Tails (Blue Spheres)" Name="ReferenceBSTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Continue)" Name="ReferenceTailsContinueButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Ending)" Name="ReferenceTailsEndingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Ending Pose)" Name="ReferenceTailsEndPoseButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Tornado Plane)" Name="ReferenceTailsPlaneButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Tails (Continue Screen Icons)" Name="ReferenceTailsContinueScreenIconsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Twin Tails (Main)" Name="ReferenceTailsTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Twin Tails (Blue Spheres)" Name="ReferenceBSTailsTailsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Twin Tails (Ending)" Name="ReferenceTailsTailsEndingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Twin Tails (Continue Screen Icons)" Name="ReferenceTailsTailsContinueScreenIconsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     </MenuItem>
                     <MenuItem Header="Knuckles...">
                         <MenuItem Header="Knuckles (Main)" Name="ReferenceKnucklesButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                         <MenuItem Header="Knuckles (Blue Spheres)" Name="ReferenceBSKnucklesButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Continue)" Name="ReferenceKnucklesContinueButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Ending)" Name="ReferenceKnucklesEndingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Ending Pose)" Name="ReferenceKnucklesEndPoseButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Tornado Plane)" Name="ReferenceKnucklesPlaneButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Knuckles (Continue Screen Icons)" Name="ReferenceKnucklesContinueScreenIconsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        <MenuItem Header="Cutscene Knuckles...">
+                            <MenuItem Header="Cutscene Knuckles 1" Name="ReferenceCutsceneKnuckles1Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 2" Name="ReferenceCutsceneKnuckles2Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 3" Name="ReferenceCutsceneKnuckles3Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 4" Name="ReferenceCutsceneKnuckles4Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 5" Name="ReferenceCutsceneKnuckles5Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 6" Name="ReferenceCutsceneKnuckles6Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                            <MenuItem Header="Cutscene Knuckles 7" Name="ReferenceCutsceneKnuckles7Button" Click="ReferenceAnimationButton_Click"></MenuItem>
+                        </MenuItem>
                     </MenuItem>
-                    <MenuItem Header="Super Sonic" Name="ReferenceSuperSonicButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="Data Select" Name="ReferenceDataSelectButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="Act Select" Name="ReferenceActSelectButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                 </MenuItem>
                 <MenuItem Name="MiscReference" Header="Misc..." IsEnabled="False">
+                    <MenuItem Header="Signposts"  Name="ReferenceSignpostsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                     <MenuItem Header="Monitors"  Name="ReferenceMonitorsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
-                    <MenuItem Header="HUD" Name="ReferenceHUDButton" Click="RefrenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="Classic Shield"  Name="ReferenceClassicShieldsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="Results Nametags" Name="ReferenceResultsNametagsButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="HUD Text" Name="ReferenceHUDTextButton" Click="ReferenceAnimationButton_Click"></MenuItem>
+                    <MenuItem Header="HUD Lives" Name="ReferenceHUDLifeButton" Click="ReferenceAnimationButton_Click"></MenuItem>
                 </MenuItem>
                 <MenuItem Visibility="Visible" Header="Custom..." Name="CustomReferenceButton" Click="CustomReferenceButton_Click"></MenuItem>
                 <MenuItem IsChecked="True" Header="None (Default)" Name="ReferenceNothingButton" Click="ReferenceAnimationButton_Click"></MenuItem>
